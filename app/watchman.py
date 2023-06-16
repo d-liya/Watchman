@@ -1,6 +1,5 @@
 import time
 from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
 import tkinter as tk
 from tkinter import filedialog
 import threading
@@ -8,7 +7,6 @@ import requests
 import pystray
 from PIL import Image
 import os
-from ttkthemes import ThemedTk
 from tkinter import ttk
 from ttkbootstrap import Style
 from observer import FileEventHandler
